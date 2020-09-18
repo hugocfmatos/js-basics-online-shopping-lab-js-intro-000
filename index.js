@@ -27,7 +27,7 @@ function viewCart() {
     if (i=cart.length-2) {
       text1=text1 + ", and "
     }
-    if (i<car.length-2) {
+    if (i<cart.length-2) {
       text1=text1 + ", "
     }
     }
