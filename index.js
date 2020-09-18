@@ -21,10 +21,10 @@ function viewCart() {
   var text1="In your cart, you have "
   for (let i=0; i<cart.length; i++) {
     text1=text1 + cart[i].itemName + " at $" + cart[i].itemPrice
-    if (i=cart.length-1) {
+    if (i==cart.length-1) {
       text1=text1 + "."
     }
-    if (i=cart.length-2) {
+    if (i==cart.length-2) {
       text1=text1 + ", and "
     }
     if (i<cart.length-2) {
